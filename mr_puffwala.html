@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. Puffwala</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Mr. Puffwala</h1>
+    </header>
+    <main>
+        <section class="menu">
+            
+            <div class="puff-item">
+                <img src="image/VegPuffs.webp" alt="Puff Item 1">
+                <h3>Simple Puff</h3>
+                <p>Price: 15.00</p>
+                <label for="Simple-puff-quatity">Quantity:</label>
+                <input type="number" id="Simple-puff-quatity" name="quantity" min="0" max="100">
+            </div>
+            <div class="puff-item">
+                <img src="image/Kesar Fresh Kitchen Ratlami Sev Masala Puff (2 PCS).webp" alt="Puff Item 2">
+                <h3>Sev Puff</h3>
+                <p>Price: 20.00</p>
+                <label for="Sev-puff-quantity">Quantity:</label>
+                <input type="number" id="Sev-puff-quantity" name="quantity" min="0" max="100">
+            </div>
+            <div class="puff-item">
+                <img src="image/big_AMP_5431.jpg" alt="Puff Item 1">
+                <h3>Chease Puff</h3>
+                <p>Price: 40.00</p>
+                <label for="chease-puff-quantity">Quantity:</label>
+                <input type="number" id="chease-puff-quantity" name="quantity" min="0" max="100">
+            </div>
+            <div class="puff-item">
+                <img src="image/pizza-puff.webp" alt="Puff Item 1">
+                <h3>pizza Puff</h3>
+                <p>Price: 90.00</p>
+                <label for="Simple-puff-quatity">Quantity:</label>
+                <input type="number" id="Simple-puff-quatity" name="quantity" min="0" max="100">
+            </div>
+            <div class="puff-item">
+                <img src="garlic_puff.jpg" alt="Puff Item 1">
+                <h3>garlic Puff</h3>
+                <p>Price: 50.00</p>
+                <label for="Simple-puff-quatity">Quantity:</label>
+                <input type="number" id="Simple-puff-quatity" name="quantity" min="0" max="100">
+            </div>
+
+           
+        </section>
+        <br>
+        <button  id="order">Order Now</button>
+        <section class="review">
+            <h2>Leave a Review</h2>
+            <textarea id="review-text" rows="4" placeholder="Write your review here..."></textarea>
+            <button onclick="submitReview()">Submit Review</button>
+            <div id="review-output"></div>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
